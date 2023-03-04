@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-sass",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple vite plugin to use scss within your own project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
