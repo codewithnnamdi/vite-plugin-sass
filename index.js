@@ -19,8 +19,8 @@ function vitePluginSass() {
           });
         });
         return {
-          code: result.css,
-          map: result.map,
+          code: String(result.css),
+          map: String(result.map),
         };
       }
     },
