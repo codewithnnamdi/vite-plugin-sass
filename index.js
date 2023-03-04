@@ -5,7 +5,7 @@ function vitePluginSass() {
   return {
     name: 'vite-plugin-sass',
     async transform(code, id) {
-      if (path.extname(id) === '.scss') {
+      if (path.extname(id) === ('.scss' || '.sass')) {
         const result = await sass.render({ data: code });
         return {
           code: result.css.toString(),
